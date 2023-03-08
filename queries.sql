@@ -23,13 +23,15 @@ SELECT species FROM animals;
 
 BEGIN TRANSACTION;
 DELETE FROM animals;
+SELECT COUNT(*) FROM animals;
 ROLLBACK;
-SELECT * FROM animals;
+SELECT COUNT(*) FROM animals;
 
 BEGIN TRANSACTION;
 DELETE FROM animals WHERE date_of_birth > '2022-01-01';
 SAVEPOINT vet_clinic;
 UPDATE animals SET weight_kg = weight_kg * -1;
+ROLLBACK;
 UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 0;
 COMMIT;
 SELECT * FROM animals;

@@ -59,9 +59,8 @@ Vet Clinic Database is relational database creates initial data structure for a 
 
 ### Key Features <a name="key-features"></a>
 
-- vet_clinic Database
-- Create a table named `animals`
-- Data stored in the database are `id`, `name`, `date of birth`, `weight`, `escape attempts` and `neutered`.
+- Queried animals table
+- Updated animals table
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,7 +68,7 @@ Vet Clinic Database is relational database creates initial data structure for a 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo Link](#)
+`N/A`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,7 +146,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Update animals table
 - Query multiple tables.
 - Add "join table" for visits
 
@@ -159,7 +157,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](../../issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,7 +182,5 @@ I would like to thank [Microverse](https://github.com/microverseinc) for this pr
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
