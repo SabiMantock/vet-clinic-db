@@ -35,20 +35,6 @@ Vet Clinic Database is relational database creates initial data structure for a 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
@@ -92,39 +78,6 @@ Clone this repository to your desired folder:
 ```sh
   git clone git@github.com:SabiMantock/vet-clinic-db.git
   cd vet-clinic-db
-```
-
-### Install
-
-Install this project with:
-
-```sh
-  cd my-project
-  gem install
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-  rails server
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
-
-### Deployment
-
-You can deploy this project using:
-
-```sh
-
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
