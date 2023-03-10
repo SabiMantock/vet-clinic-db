@@ -28,3 +28,20 @@ ALTER TABLE animals
 ADD owner_id INT;
 ALTER TABLE animals
 ADD CONSTRAINT foreign_key_owners FOREIGN KEY (owner_id) REFERENCES owners(id);
+CREATE TABLE vets (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(225) NOT NULL,
+    age INT,
+    date_of_graduation DATE
+);
+CREATE TABLE specializations(
+    vet_id INT REFERENCES vets(id),
+    species_id INT REFERENCES species(id),
+    PRIMARY KEY(vet_id, species_id)
+);
+CREATE TABLE visits (
+    id BIGSERIAL PRIMARY KEY,
+    animal_id INT REFERENCES animals(id),
+    vet_id INT REFERENCES vets(id),
+    visit_date DATE NOT NULL
+);
