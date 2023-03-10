@@ -59,8 +59,7 @@ Vet Clinic Database is relational database creates initial data structure for a 
 
 ### Key Features <a name="key-features"></a>
 
-- Queried animals table
-- Updated animals table
+- Query multiple tables.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,7 +145,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Query multiple tables.
 - Add "join table" for visits
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
