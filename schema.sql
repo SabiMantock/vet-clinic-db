@@ -15,6 +15,7 @@ CREATE TABLE owners (
     full_name VARCHAR(255),
     age INT
 );
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 CREATE TABLE species (
     id BIGSERIAL PRIMARY KEY,
     name VARCHAR(255)
@@ -45,3 +46,5 @@ CREATE TABLE visits (
     vet_id INT REFERENCES vets(id),
     visit_date DATE NOT NULL
 );
+CREATE INDEX visits_animal_id_index ON visits (animal_id);
+CREATE INDEX visits_vets_id_index ON visits (vets_id);
