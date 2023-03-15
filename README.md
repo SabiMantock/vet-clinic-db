@@ -41,7 +41,7 @@ Vet Clinic Database is relational database creates initial data structure for a 
 
 ### Key Features <a name="key-features"></a>
 
-- Join table for visits.
+- Performance Audit.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,6 +87,18 @@ Clone this repository to your desired folder:
 - GitHub: [@SabiMantock](https://github.com/SabiMantock)
 - Twitter: [@iamsabimantock](https://twitter.com/iamsabimantock)
 - LinkedIn: [Sabi Mantock](https://linkedin.com/in/sabi-mantock)
+
+👤 **Amaka Laura Konwea**
+
+- GitHub: [@lawrahkonwea](https://github.com/lawrahkonwea)
+- Twitter: [@lawrah_xo](https://twitter.com/lawrah_xo)
+- LinkedIn: [Amaka Laura Konwea](https://linkedin.com/in/amaka-laura-konwea-99647a23a/)
+
+👤 **John (Koy OutKarm) Kpordje**
+
+- GitHub: [@Outkarm](https://github.com/Outkarm)
+- Twitter: [@outkarm](https://twitter.com/outkarm)
+- LinkedIn: [John (Koy OutKarm) Kpordje](https://linkedin.com/in/https://www.linkedin.com/in/koyoutkarm/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
