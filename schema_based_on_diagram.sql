@@ -19,3 +19,11 @@ CREATE TABLE invoices (
     medical_history_id INT REFERENCES medical_history(id),
     PRIMARY KEY(id)
 );
+CREATE TABLE treatments (
+    id BIGSERIAL NOT NULL,
+    type VARCHAR(100) NOT NULL
+    name VARCHAR(100) NOT NULL,
+    treatments(id) INT REFERENCES medical_history(id),
+    treatment_id INT REFERENCES treatments(id),
+    PRIMARY KEY(id)
+)
