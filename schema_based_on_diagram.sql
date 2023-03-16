@@ -21,15 +21,15 @@ CREATE TABLE invoices (
 );
 CREATE TABLE treatments (
     id BIGSERIAL NOT NULL,
-    type VARCHAR(100) NOT NULL
+    type VARCHAR(100) NOT NULL,
     name VARCHAR(100) NOT NULL,
     REFERENCES medical_history(id),
     PRIMARY KEY(id)
-)
-CREATE TAble invoice_items(
-     id BIGSERIAL NOT NULL,
-     unit_price decimal NOT NULL,
-     Quantity int,
-     invoice_id int REFERENCES invoice (id),
-     treatment_id int REFERENCES treatments (id)
-)
+);
+CREATE TABLE invoice_items(
+    id BIGSERIAL NOT NULL,
+    unit_price decimal NOT NULL,
+    Quantity int,
+    invoice_id int REFERENCES invoice (id),
+    treatment_id int REFERENCES treatments (id)
+);
