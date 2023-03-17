@@ -38,6 +38,7 @@ CREATE TABLE invoice_items(
     id BIGSERIAL NOT NULL,
     unit_price decimal NOT NULL,
     Quantity int,
+    total_price decimal,
     invoice_id int REFERENCES invoice (id),
     treatment_id int REFERENCES treatments (id),
     INDEX (invoice_id, treatment_id)
