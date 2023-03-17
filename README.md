@@ -41,7 +41,7 @@ Vet Clinic Database is relational database creates initial data structure for a 
 
 ### Key Features <a name="key-features"></a>
 
-- Performance Audit.
+- Created a database based on a diagram.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
