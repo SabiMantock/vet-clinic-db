@@ -28,6 +28,12 @@ CREATE TABLE treatments (
     REFERENCES medical_history(id),
     PRIMARY KEY(id),
 );
+CREATE TABLE medical_history_treatments (
+    medical_history_id BIGINT NOT NULL REFERENCES medical_histories(id),
+    treatment_id BIGINT NOT NULL REFERENCES treatments(id),
+    PRIMARY KEY(medical_history_id, treatment_id),
+    INDEX (medical_history_id, treatment_id)
+);
 CREATE TABLE invoice_items(
     id BIGSERIAL NOT NULL,
     unit_price decimal NOT NULL,
